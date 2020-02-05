@@ -39,9 +39,5 @@
   // Collapse the navbar when page is scrolled
   $(window).scroll(navbarCollapse);
 
-  $(document).ready(function(){
-    $('[data-toggle="popover"]').popover(); 
-  });
-
 
 })(jQuery); // End of use strict
