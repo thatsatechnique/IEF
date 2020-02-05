@@ -18,7 +18,7 @@ $(function() {
         firstName = name.split(' ').slice(0, -1).join(' ');
       }
       $this = $("#sendMessageButton");
-      $this.prop("disabled", true); // Disable submit button until AJAX call is complete to prevent duplicate messages
+      $this.prop("disabled", true); // Disable submit button until AJAX call is complete to prevent duplicate messages 
       $.ajax({
         url: "https://script.google.com/macros/s/AKfycbyjlADxKvh49C4Ctjd4ywFEo5TN-6OTANPGyvIoinybxzmyFQs/exec",
         type: "POST",
