@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - Agency v5.2.2 (https://startbootstrap.com/template-overviews/agency)
- * Copyright 2013-2019 Start Bootstrap
+ * Copyright 2013-2020 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
  */
 
@@ -100,7 +100,7 @@ img::-moz-selection {
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
   background-color: #fec810 !important;
   border-color: #fec810 !important;
-  color: white;
+  color: #adb5bd;
 }
 
 .btn-primary:active, .btn-primary:focus {
@@ -173,7 +173,7 @@ img::-moz-selection {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("../img/banner-test.png");
+  background-image: url("../img/header-bg.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -449,12 +449,35 @@ header.masthead .intro-text .intro-heading {
   font-size: 10px;
   line-height: 14px;
   margin-top: 12px;
+  color: #adb5bd;
+}
+
+.timeline > li .timeline-image-custom {
+  position: absolute;
+  z-index: 100;
+  left: 0;
+  width: 80px;
+  height: 80px;
+  margin-left: 0;
+  text-align: center;
+  color: black;
+  border: 7px solid #e9ecef;
+  border-radius: 100%;
+  background-color: #adb5bd;
+}
+
+.timeline > li .timeline-image-custom h4 {
+  font-size: 10px;
+  line-height: 14px;
+  margin-top: 12px;
+  color: white;
 }
 
 .timeline > li.timeline-inverted > .timeline-panel {
   float: right;
   padding: 0 20px 0 100px;
   text-align: left;
+  color: white;
 }
 
 .timeline > li.timeline-inverted > .timeline-panel:before {
@@ -462,6 +485,7 @@ header.masthead .intro-text .intro-heading {
   left: -15px;
   border-right-width: 15px;
   border-left-width: 0;
+  color: white;
 }
 
 .timeline > li.timeline-inverted > .timeline-panel:after {
@@ -469,6 +493,7 @@ header.masthead .intro-text .intro-heading {
   left: -14px;
   border-right-width: 14px;
   border-left-width: 0;
+  color: white;
 }
 
 .timeline > li:last-child {
